@@ -7,5 +7,9 @@
     "test": "jest"
   },
   "author": "Juan David Puello López",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@jest/globals": "^29.3.1",
+    "jest": "^29.3.1"
+  }
 }

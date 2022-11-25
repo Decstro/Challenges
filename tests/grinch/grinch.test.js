@@ -1,5 +1,5 @@
-import {describe, test, expect } from '@jest/globals'
-import isValid from '../../challenges/grinch/isValid'
+import {describe, test, expect, jest } from '@jest/globals'
+import {isValid} from '../../challenges/grinch/isValid'
 
 describe('Test Function IsValid', () => {
 

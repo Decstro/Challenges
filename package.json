@@ -4,8 +4,9 @@
   "description": "Different challenge+",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest"
   },
+  "type": "module",
   "author": "Juan David Puello López",
   "license": "ISC",
   "dependencies": {

@@ -1,9 +1,9 @@
-import {describe, test, expect, jest } from '@jest/globals'
-import {isValid} from '../../challenges/grinch/isValid'
+const {describe, test, expect} = require('@jest/globals')
+const {isValid} = require('../../challenges/grinch/isValid')
 
 describe('Test Function IsValid', () => {
 
-  test('Return True When sends (balón)', () => {
+  test('Return True when sends (balón)', () => {
     expect(isValid('(balón)')).toBeTruthy();
   });
 });
